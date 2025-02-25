@@ -36,13 +36,13 @@ p{
 
 }
 a{
-    display: block;
+    display: block;/*Funciona na linha de ponta a ponta da tela*/
 }
 
 #div_1{
     display: inline;
     background-color: rgb(245, 156, 215);
-    position: relative;
+    position: relative;/*Começa a partir do h2*/
     left: 100px;
     top: 200px;
 
@@ -50,16 +50,16 @@ a{
 
 #div_2{
     display: inline;
-    background-color: rgb(169, 169, 245);
-    position: absolute;
-    left: 200px;
+    background-color: rgb(19, 19, 179);
+    position: absolute;/*Começa a partir da borda da pagina*/
+    left: 300px;
     top: 200px;
     z-index: -1;
 }
 #contato{
     display: inline;
     background-color: rgb(119, 233, 208);
-    position: fixed;
+    position: fixed;/*Fica fixado, mesmo que o usuario role a tela*/
     bottom: 0px;
     right: 0px;
     z-index: 0;
