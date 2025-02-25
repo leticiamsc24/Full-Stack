@@ -1,0 +1,16 @@
+
+div{
+    margin: 10px;
+    padding: 10px;
+}
+.dotted{
+    border-style: dotted;
+}
+
+.dashed{
+    border-style: dashed;
+}
+
+.solid{
+    border-style: solid;
+}
