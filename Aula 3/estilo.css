@@ -2,15 +2,65 @@
 div{
     margin: 10px;
     padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px blueviolet;
+    
 }
 .dotted{
     border-style: dotted;
+    width: 100px;
 }
 
 .dashed{
     border-style: dashed;
+    background-color: aqua;
+    width: 200px;
+    z-index: 1;
+}
+
+.dashed:hover{
+    background-color: rgb(188, 231, 144);
 }
 
 .solid{
     border-style: solid;
+    width: 300px;
+}
+
+p, a{
+    background-color: aqua;
+
+}
+p{
+    display: inline;/*Funciona somente onde a escrita ocupa*/
+
+}
+a{
+    display: block;
+}
+
+#div_1{
+    display: inline;
+    background-color: rgb(245, 156, 215);
+    position: relative;
+    left: 100px;
+    top: 200px;
+
+}
+
+#div_2{
+    display: inline;
+    background-color: rgb(169, 169, 245);
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    z-index: -1;
+}
+#contato{
+    display: inline;
+    background-color: rgb(119, 233, 208);
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 0;
 }

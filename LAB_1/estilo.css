@@ -3,7 +3,7 @@
 }
 
 #titulo_1{
-    color: rgb(236, 112, 39);
+    color: rgb(57, 135, 155);
 }
 
 #Nome:hover{
@@ -15,4 +15,19 @@
 
 #p_2{
     background-color: rgb(188, 215, 247);
+}
+
+#Introdução{
+    text-align: center;
+}
+.paragrafos{
+    color: blueviolet;
+}
+#Livros{
+    text-align: center;
+}
+#id_c{
+background-color: bisque;
+color: darkgreen;
+text-align: center;
 }
