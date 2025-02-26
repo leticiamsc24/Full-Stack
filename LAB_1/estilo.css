@@ -30,13 +30,23 @@
 
 }
 #id_c{
-display: inline;
+display: inline-block;
+text-align: center;
+text-align-last: center;
 box-shadow: 0px 30px lightskyblue;
 border-style: solid; border-color:  rgb(44, 48, 248);
 background-color: bisque;
 color: darkgreen;
-text-align: justify;
-height: 150px;
+margin: 0px;
+padding: 60px;
+width: 1200px;
 
+
+}
+#imagem_1{
+    position: relative;
+    left: 15px;
+    top: 130px;
+    
 }
 
