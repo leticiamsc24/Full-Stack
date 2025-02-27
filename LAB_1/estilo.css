@@ -73,10 +73,33 @@ width: 1200px;
 #Contato{
     text-align: center;
 }
-.tabela_1{
-    display: block;
-    text-align: center;
+#tabela_1{
     position: relative;
-    border-style: dashed;
-    width: 110px;
+    left: 500px;
+    top: 30px;
+    align-items: center;
+    text-align: center;
+    width: 345px;
+    border: dashed red 3px;
+    border-bottom: dashed red 3px;
+}
+#rodape{
+    font-style: 15pt;
+}
+#css_1{
+
+    left: 60px;
+    top: 1px;
+}
+.footer{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: bisque;
+    bottom: -1000px;
+    padding: 20px;
+    width: 1280px;
+    height: 100px;
+    
 }
