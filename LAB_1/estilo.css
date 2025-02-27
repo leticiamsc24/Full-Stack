@@ -58,5 +58,25 @@ width: 1200px;
 
 }
 .introdução1{
-    
+    position: relative;
+    display: block;
+    text-align: center;
+}
+#FEI{
+    text-align: center;
+   
+}
+.java{
+    display: block;
+    text-align: center;
+}
+#Contato{
+    text-align: center;
+}
+.tabela_1{
+    display: block;
+    text-align: center;
+    position: relative;
+    border-style: dashed;
+    width: 110px;
 }
