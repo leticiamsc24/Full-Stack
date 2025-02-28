@@ -86,12 +86,12 @@ width: 1200px;
 #rodape{
     font-style: 15pt;
 }
-#css_1{
+#css_1{     /*id sempre será identificado como # (jogo da velha)*/
 
     left: 60px;
     top: 1px;
 }
-.footer{
+.footer{     /*class sempre será identificada com . (ponto)*/
     display: block;
     justify-content: center;
     align-items: center;
